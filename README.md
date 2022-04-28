@@ -1,2 +1,2 @@
 # home
-Web de portafolio persona como desarrollador Web
+Web de Constelaciones CONGRESO INTERDISCIPLINARIO SOBRE ARTE, CIENCIA Y TECNOLOGÍA
