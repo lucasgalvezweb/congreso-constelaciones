@@ -11,14 +11,14 @@
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      href="./css/bootstrap.min.css"
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
 
     <!-- Font Awesome CDN -->
     <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="./css/font-awesome.min.css"
       rel="stylesheet"
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
@@ -26,19 +26,19 @@
 
     <!-- JQuery -->
     <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      src="./js/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
     <!-- Popper JS -->
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      src="./js/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"
     ></script>
     <!-- Bootstrap JS -->
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      src="./js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
@@ -79,19 +79,13 @@
             <div class="collapse navbar-collapse" id="collapsenavbar">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a
-                    href="#servicios"
-                    class="nav-link text-dark font-weight-bold"
-                    >INICIO</a
-                  >
+                  <a href="#servicios" class="nav-link text-dark">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a
-                    href="#portafolio"
-                    class="nav-link text-dark font-weight-bold"
-                    >CONVOCATORIA</a
+                  <a href="#portafolio" class="nav-link text-dark"
+                    >Convocatoria</a
                   >
-                </li>
+                  <!-- </li>
                 <li class="nav-item">
                   <a href="#nuestro-equipo" class="nav-link text-dark font-weight-bold"
                     >PONENTES</a
@@ -118,11 +112,11 @@
                   <a href="#" class="nav-link text-dark font-weight-bold"
                     >REPOSITORIO</a
                   >
+                </li> -->
                 </li>
+
                 <li class="nav-item">
-                  <a href="#" class="nav-link text-dark font-weight-bold"
-                    >CONSULTAS</a
-                  >
+                  <a href="#" class="nav-link text-dark">Consultas</a>
                 </li>
               </ul>
             </div>
@@ -136,139 +130,281 @@
           id="bienvenidos"
         >
           <h2>Bienvenido</h2>
-          <h3 class="m-5">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum blanditiis ducimus commodi a accusamus dolor. Quasi dignissimos minima saepe ratione iure, deserunt nihil id blanditiis, cum fuga, ullam voluptate itaque.
-          </h3>
           <br />
-          <button class="btn btn-utec text-white btn-lg">
-            Inscríbete
-          </button>
+          <button class="btn btn-utec text-white btn-lg">Inscríbete</button>
         </div>
       </div>
     </section>
 
     <!-- =========================================== SERVICIOS ========================================= -->
 
-    <section
-      class="container servicios text-center scroll-cabecera"
-      id="servicios"
-    >
-      <h2>INICIO</h2>
-      <!-- Descripcion de cada uno de los servicios -->
-      <div class="row configfila">
-        <div class="col-lg-4 col-md-6 col-sm-12 d-block m-auto">
-          <div class="configimg d-block m-auto bg-utec">
-            <img
-              src="img/icons/responsive.svg"
-              alt=""
-              width="70px"
-              height="70px"
-              class="un-icono"
-            />
-          </div>
-          <h1>Publicación 1</h1>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora in
-            minus quibusdam, hic, recusandae tempore eligendi dicta, fuga ipsum
-            possimus quo tenetur voluptas. Possimus, illo doloribus amet ratione
-            suscipit beatae.
-          </p>
-          <br />
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 d-block m-auto">
-          <div class="configimg d-block m-auto bg-utec">
-            <img
-              src="img/icons/tienda-online.svg"
-              alt=""
-              width="70px"
-              height="70px"
-              class="un-icono"
-            />
-          </div>
-          <h1>Publicación 2</h1>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora in
-            minus quibusdam, hic, recusandae tempore eligendi dicta, fuga ipsum
-            possimus quo tenetur voluptas. Possimus, illo doloribus amet ratione
-            suscipit beatae.
-          </p>
-          <br />
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12 d-block m-auto">
-          <div class="configimg d-block m-auto bg-utec">
-            <img
-              src="img/icons/soporte-tecnico.svg"
-              alt=""
-              width="70px"
-              height="70px"
-              class="un-icono"
-            />
-          </div>
-          <h1>Publicación 3</h1>
-          <br />
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora in
-            minus quibusdam, hic, recusandae tempore eligendi dicta, fuga ipsum
-            possimus quo tenetur voluptas. Possimus, illo doloribus amet ratione
-            suscipit beatae.
-          </p>
-        </div>
+    <section class="container servicios scroll-cabecera" id="servicios">
+      <div class="text-center">
+        <h2>INICIO</h2>
+        <hr />
+        <h3>CONSTELACIONES</h3>
+        <p>CONGRESO INTERDISCIPLINARIO SOBRE ARTE, CIENCIA Y TECNOLOGÍA</p>
       </div>
+
+      <article class="text-justify">
+        El desarrollo del proyecto histórico de la Modernidad consagró, en buena
+        medida, la autonomía de las esferas culturales de lo artístico y lo
+        científico-tecnológico, haciendo de cada uno de estos campos dimensiones
+        en teoría independientes: cada uno de ellos con sus propios objetos,
+        métodos y criterios de validación. Ello ha dado lugar a que, en el
+        imaginario colectivo, se suela considerar a estas prácticas como si
+        corrieran por caminos separados. No obstante, y sin restarle validez a
+        estas pretensiones ideales de autonomía moderna (que ayudan, en buena
+        cuenta, a definir y delimitar estas categorías), las interrelaciones
+        entre las artes, las ciencias y la tecnología han mostrado, a lo largo
+        de la historia, una profunda flexibilidad y una vigorosa capacidad de
+        nutrirse mutuamente unas de las otras. Este encuentro genera una serie
+        de constelaciones que, en una medida importante, difuminan o entrecruzan
+        las fronteras conceptuales y metodológicas entre los campos
+        disciplinarios, ampliando así la capacidad de innovación y de respuesta
+        a los desafíos de nuestros tiempos.
+      </article>
+      <br />
+      <p>
+        De cara a estas circunstancias, el congreso “Constelaciones” se propone:
+      </p>
+
+      <article class="text-justify">
+        <ul>
+          <li>
+            Promover la investigación en torno a las interrelaciones, tanto
+            actuales como históricas, entre arte, ciencia y tecnología desde un
+            enfoque académico e interdisciplinario.
+          </li>
+          <li>
+            Visibilizar, articular y formalizar en la academia las discusiones
+            contemporáneas sobre estos temas.
+          </li>
+          <li>
+            Establecer puentes y crear espacios de conversación entre los
+            distintos agentes involucrados en estas discusiones provenientes de
+            diferentes disciplinas: ciencias e ingeniería, humanidades y
+            ciencias sociales, y disciplinas artísticas diversas.
+          </li>
+          <li>
+            Explorar las definiciones de arte, tecnología, arte-tecnológico,
+            arte-científico, etc. y reflexionar respecto de las posibilidades de
+            creación e innovación que se dan a partir de la intersección de los
+            campos.
+          </li>
+        </ul>
+      </article>
+      <p>Organizan:</p>
+
+      <article class="text-justify">
+        <ul>
+          <li>
+            Dirección de Humanidades, Artes y Ciencias Sociales de la
+            Universidad de Ingeniería y Tecnología (HACS-UTEC)
+          </li>
+          <li>Museo de Arte Contemporáneo de Lima (MAC-Lima)</li>
+          <li>
+            Grupo de Investigación en Arte y Estética de la Pontificia
+            Universidad Católica del Perú (GAE-PUCP)
+          </li>
+          <li>Fundación Telefónica Perú</li>
+        </ul>
+      </article>
     </section>
 
     <!-- =========================================== PORTAFOLIO ========================================= -->
-    <section class="portafolio bg-utec scroll-cabecera" id="portafolio">
-      <div class="container text-center">
-        <h3 class="text-white">CONVOCATORIA</h3>
-        <p class="text-white">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam delectus alias ipsam sapiente aliquam quisquam fuga, sed consequuntur accusamus tenetur, adipisci, fugit ullam? Velit delectus iste fuga nihil quia rerum.
-        </p>
-        <div class="row configfila">
-          <div class="col-lg-4 col-md-6 col-sm-12 d-block m-auto">
-            <div class="card">
-              <img
-                src="img/portfolio/04.jpg"
-                alt=""
-                class="card-img img-fluid"
-              />
+    <section class="portafolio bg-light scroll-cabecera" id="portafolio">
+      <div class="container">
+        <div class="text-center">
+          <h2>Convocatoria</h2>
+        </div>
+        <br>
+        <article class="text-justify">
+          La Dirección de Humanidades, Artes y Ciencias Sociales de la Universidad
+          de Ingeniería y Tecnología (HACS-UTEC), el Museo de Arte Contemporáneo
+          de Lima (MAC-Lima), el Grupo de Investigación en Arte y Estética de la
+          Pontificia Universidad Católica del Perú (GAE-PUCP) y la Fundación
+          Telefónica Perú convocan a las comunidades académica, científica y
+          artística, tanto nacionales como internacionales, a presentar ponencias
+          en el Congreso interdisciplinario sobre Arte, Ciencia y Tecnología
+          “Constelaciones”, el cual tendrá lugar en Lima, en el campus de la UTEC
+          y en los ambientes del MAC-Lima, del 28 al 30 de setiembre de 2022.
+        </article>
+        <hr>
+        <p>ÁREAS TEMÁTICAS:</p>
+
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1.	Historia de las interrelaciones entre artes, ciencia y tecnología 
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                <h2 class="card-title">Charla 1</h2>
-                <p class="card-text">Jhon Doe</p>
+                Trabajos que investiguen el vínculo entre artes, ciencia y tecnología en términos históricos, antropológicos, filosóficos, etc., o que exploren o cuestionen las definiciones de los términos.
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 d-block m-auto">
-            <div class="card">
-              <img
-                src="img/portfolio/02.jpg"
-                alt=""
-                class="card-img img-fluid"
-              />
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2.	Adaptación cultural, saberes tradicionales, artes y tecnología 
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
               <div class="card-body">
-                <h2 class="card-title">Charla 2</h2>
-                <p class="card-text">Jhon Doe</p>
+                Trabajos que exploren los saberes y prácticas llamados tradicionales, artesanales, no occidentales o populares y su integración y resignificación a través del vínculo de las artes, la ciencia y la tecnología.
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 col-sm-12 d-block m-auto">
-            <div class="card">
-              <img
-                src="img/portfolio/03.jpg"
-                alt=""
-                class="card-img img-fluid"
-              />
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  3.	Medioambiente, naturaleza, ciencia y arte
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
               <div class="card-body">
-                <h2 class="card-title">Charla 3</h2>
-                <p class="card-text">Jhon Doe</p>
+                Trabajos que, desde una perspectiva crítica, presenten y analicen casos de estudio que vinculen las artes, la ciencia y la tecnología y que aborden los diferentes retos actuales para la sostenibilidad medioambiental (cambio climático, calidad del aire, el agua y el suelo, renovación sostenible de recursos, protección de la fauna y flora, extracción de recursos minerales y agrícolas, entre otros temas afines).
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  4.	Vida y paisaje urbano 
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                Trabajos que presenten y analicen casos de estudio que vinculen las artes, la ciencia y la tecnología para referir a los desafíos del crecimiento, la organización y sostenibilidad de las ciudades, entre otros temas afines.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  5.	Corporalidad 
+                </button>
+              </h2>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                Trabajos que reconozcan el valor del cuerpo en las propuestas artísticas que integran ciencia y tecnología, y que pongan en debate la oposición entre corporalidad y artificialidad (la relación hombre-máquina, la somática, la biomecánica, entre otros temas afines).
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  6.	Apropiaciones tecnológicas
+                </button>
+              </h2>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+              <div class="card-body">
+                Trabajos que presenten y analicen casos de estudio en los que las diversas prácticas artísticas se apropian de los nuevos desarrollos tecnológicos (como la inteligencia artificial, el desarrollo de algoritmos, la interpretación y graficación de big data, entre otros temas afines).
               </div>
             </div>
           </div>
         </div>
+        <br>
+        <article class="text-justify">
+          Las ponencias pueden ser presentadas en castellano o inglés. Para su evaluación por doble referato ciego, las y los interesadas/os deben enviar un resumen de la ponencia de 500 palabras como máximo, en el que señalen con claridad, rigor y pertinencia el tema de la ponencia y los argumentos que lo desarrollan. Dicho envío debe acompañarse de un breve CV de un máximo de 200 palabras y debe indicarse la filiación institucional de la o del ponente (si la hubiere), el título de la ponencia y el área temática en la que se ubica. Las propuestas han de enviarse exclusivamente al correo: congreso_arteytecnologia@utec.edu.pe. La fecha límite para el envío de los resúmenes de ponencias es el 4 de junio de 2022.
+        </article>
+        <br>
+        <article class="text-justify">
+          El resultado de la evaluación será comunicado el 8 de agosto de 2022 y las y los autores tienen plazo para enviar sus ponencias completas hasta el 2 de setiembre de 2022 a la misma dirección de correo. Las ponencias deberán tener una extensión de 3000 a 3500 palabras (sin incluir notas ni bibliografía), de modo que puedan ser leídas en 20 minutos.
+        </article>
+
+        <br>
+
+        <div class="accordion" id="accordionExampletwo">
+          <div class="card">
+            <div class="card-header" id="headingSeven">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                a)	MESAS TEMÁTICAS:
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseSeven" class="collapse show" aria-labelledby="headingSeven" data-parent="#accordionExample">
+              <div class="card-body text-justify">
+                <p>
+                  Estas mesas también serían de carácter académico, pero más exploratorio (“juniors”), y se armarían en función de las áreas temáticas. Dos modalidades:
+                </p>
+                <ul>
+                  <li>
+                    Mesas de interés de acuerdo con los objetivos. Nos interesa, por ejemplo, armar una o más mesas de ingenieros y/o científicos y cómo se ve desde su disciplina la interrelación con las artes. Podría también, siguiendo esta línea, armarse una mesa semejante desde las humanidades y las ciencias sociales, entre otras más de acuerdo a los objetivos del congreso. Eventualmente, algún grupo de investigación o colectivo (artístico o cultural) podría estar interesado en proponer una mesa temática.
+                  </li>
+                  <li>
+                    Mesas surgidas a partir de la convocatoria abierta a presentar ponencias (ver más abajo el detalle). Duración: aprox. 2 horas cada mesa, que incluiría unas 3 ponencias. Cada ponente tendría 20 o máximo 30 min. + 30 min. para discusión con el público.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingEight">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                b)	CONVOCATORIA A OTRAS ACTIVIDADES
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseEight" class="collapse show" aria-labelledby="headingEight" data-parent="#accordionExample">
+              <div class="card-body text-justify">
+                <p>
+                  Existe también la posibilidad de que instituciones o agrupaciones propongan la realización de simposios, mesas redondas de carácter temático, talleres artísticos o presentaciones de libros asociados a las áreas temáticas antes expuestas. En tales casos, las propuestas justificadas y los CV de los participantes deben enviarse a la misma dirección de correo electrónico y cumpliendo el mismo plazo de envío (4 de junio de 2022).
+                </p>
+                En el caso de las propuestas de TALLERES ARTÍSTICOS, se debe incluir la siguiente información:
+                <ul>
+                  <li>
+                    Duración aproximada de los talleres
+                  </li>
+                  <li>
+                    Cantidad de participantes mínima y máxima para el desarrollo del taller
+                  </li>
+                  <li>
+                    Requerimiento de materiales o equipamiento especial.
+                  </li>
+                  <li>
+                    Presupuesto aproximado (sujeto a revisión).
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
       </div>
+    </div>
+
     </section>
 
     <!-- =========================================== NUESTRO EQUIPO ========================================= -->

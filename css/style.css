@@ -13,8 +13,31 @@ h6 {
   margin-top: 0.8rem;
 }
 
+@font-face {
+  font-family: "stag-sans-light";
+  src: url("../fonts/StagSans-Light.otf") format("woff");
+}
+
+@font-face {
+  font-family: "stag-sans-bold";
+  src: url("../fonts/StagSans-Bold.otf") format("woff");
+}
+
+@font-face {
+  font-family: "stag-sans-medium";
+  src: url("../fonts/StagSans-Medium_0.otf") format("woff");
+}
+
+body {
+  font-family: stag-sans-light, Arial, Helvetica, sans-serif !important;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+.navbar-collapse {
+  text-align: center;
 }
 
 .bg-utec {
@@ -100,9 +123,9 @@ html {
   font-weight: bold;
 }
 
-.card {
+/* .card {
   margin-top: 30px;
-}
+} */
 
 .nuestro-equipo {
   padding: 100px 0px 50px;
