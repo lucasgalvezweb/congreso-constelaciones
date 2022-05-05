@@ -57,83 +57,71 @@
 
   <body>
     <!-- ==================================== Cabecera ============================================= -->
-    <section>
-      <div class="fondo">
-        <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
-          <div class="container">
-            <a
-              href="#bienvenidos"
-              class="navbar-brand text-dark font-weight-bold"
-              >Logo UTEC</a
-            >
-
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapsenavbar"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="collapsenavbar">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a href="#servicios" class="nav-link text-dark">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#portafolio" class="nav-link text-dark"
-                    >Convocatoria</a
-                  >
-                  <!-- </li>
-                <li class="nav-item">
-                  <a href="#nuestro-equipo" class="nav-link text-dark font-weight-bold"
-                    >PONENTES</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    href="#"
-                    class="nav-link text-dark font-weight-bold"
-                    >PROGRAMA</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-dark font-weight-bold"
-                    >INSCRIPCIÓN</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-dark font-weight-bold"
-                    >TRANSMISIÓN EN VIVO</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-dark font-weight-bold"
-                    >REPOSITORIO</a
-                  >
-                </li> -->
-                </li>
-
-                <li class="nav-item">
-                  <a href="#" class="nav-link text-dark">Consultas</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <!-- ==================================== BIENVENIDA ============================================= -->
-
-        <div
-          class="container text-center acomodar-texto scroll-cabecera"
-          id="bienvenidos"
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
+      <div class="container">
+        <a
+          href="#bienvenidos"
+          class="navbar-brand text-dark font-weight-bold"
+          ><img width="120px" src="./img/logo_vertical_UTEC-2015.png" alt="Logo UTEC"></a
         >
-          <h2>Bienvenido</h2>
-          <br />
-          <button class="btn btn-utec text-white btn-lg">Inscríbete</button>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsenavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsenavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#servicios" class="nav-link text-dark">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portafolio" class="nav-link text-dark"
+                >Convocatoria</a
+              >
+              <!-- </li>
+            <li class="nav-item">
+              <a href="#nuestro-equipo" class="nav-link text-dark font-weight-bold"
+                >PONENTES</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link text-dark font-weight-bold"
+                >PROGRAMA</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-dark font-weight-bold"
+                >INSCRIPCIÓN</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-dark font-weight-bold"
+                >TRANSMISIÓN EN VIVO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-dark font-weight-bold"
+                >REPOSITORIO</a
+              >
+            </li> -->
+            </li>
+
+            <li class="nav-item">
+              <a href="mailto:congreso_arteytecnologia@utec.edu.pe" class="nav-link text-dark">Consultas</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+    
+    <section class="fondo">
     </section>
 
     <!-- =========================================== SERVICIOS ========================================= -->
@@ -233,7 +221,7 @@
         <hr>
         <p>ÁREAS TEMÁTICAS:</p>
 
-        <div class="accordion" id="accordionExample">
+        <div class="accordion" id="accordionOne">
           <div class="card">
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
@@ -243,7 +231,7 @@
               </h2>
             </div>
         
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionOne">
               <div class="card-body">
                 Trabajos que investiguen el vínculo entre artes, ciencia y tecnología en términos históricos, antropológicos, filosóficos, etc., o que exploren o cuestionen las definiciones de los términos.
               </div>
@@ -257,7 +245,7 @@
                 </button>
               </h2>
             </div>
-            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionOne">
               <div class="card-body">
                 Trabajos que exploren los saberes y prácticas llamados tradicionales, artesanales, no occidentales o populares y su integración y resignificación a través del vínculo de las artes, la ciencia y la tecnología.
               </div>
@@ -271,7 +259,7 @@
                 </button>
               </h2>
             </div>
-            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionOne">
               <div class="card-body">
                 Trabajos que, desde una perspectiva crítica, presenten y analicen casos de estudio que vinculen las artes, la ciencia y la tecnología y que aborden los diferentes retos actuales para la sostenibilidad medioambiental (cambio climático, calidad del aire, el agua y el suelo, renovación sostenible de recursos, protección de la fauna y flora, extracción de recursos minerales y agrícolas, entre otros temas afines).
               </div>
@@ -285,7 +273,7 @@
                 </button>
               </h2>
             </div>
-            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionOne">
               <div class="card-body">
                 Trabajos que presenten y analicen casos de estudio que vinculen las artes, la ciencia y la tecnología para referir a los desafíos del crecimiento, la organización y sostenibilidad de las ciudades, entre otros temas afines.
               </div>
@@ -299,7 +287,7 @@
                 </button>
               </h2>
             </div>
-            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionOne">
               <div class="card-body">
                 Trabajos que reconozcan el valor del cuerpo en las propuestas artísticas que integran ciencia y tecnología, y que pongan en debate la oposición entre corporalidad y artificialidad (la relación hombre-máquina, la somática, la biomecánica, entre otros temas afines).
               </div>
@@ -313,7 +301,7 @@
                 </button>
               </h2>
             </div>
-            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionOne">
               <div class="card-body">
                 Trabajos que presenten y analicen casos de estudio en los que las diversas prácticas artísticas se apropian de los nuevos desarrollos tecnológicos (como la inteligencia artificial, el desarrollo de algoritmos, la interpretación y graficación de big data, entre otros temas afines).
               </div>
@@ -330,19 +318,19 @@
         </article>
 
         <br>
-
-        <div class="accordion" id="accordionExampletwo">
+        
+        <div class="accordion" id="accordionThree">
           <div class="card">
-            <div class="card-header" id="headingSeven">
+            <div class="card-header" id="headingNine">
               <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                a)	MESAS TEMÁTICAS:
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                  a)	Mesas Temáticas:
                 </button>
               </h2>
             </div>
         
-            <div id="collapseSeven" class="collapse show" aria-labelledby="headingSeven" data-parent="#accordionExample">
-              <div class="card-body text-justify">
+            <div id="collapseNine" class="collapse show" aria-labelledby="headingNine" data-parent="#accordionThree">
+              <div class="card-body">
                 <p>
                   Estas mesas también serían de carácter académico, pero más exploratorio (“juniors”), y se armarían en función de las áreas temáticas. Dos modalidades:
                 </p>
@@ -357,18 +345,16 @@
               </div>
             </div>
           </div>
-
           <div class="card">
-            <div class="card-header" id="headingEight">
+            <div class="card-header" id="headingTen">
               <h2 class="mb-0">
-                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-                b)	CONVOCATORIA A OTRAS ACTIVIDADES
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                  b.	Convocatoría a otras actividades
                 </button>
               </h2>
             </div>
-        
-            <div id="collapseEight" class="collapse show" aria-labelledby="headingEight" data-parent="#accordionExample">
-              <div class="card-body text-justify">
+            <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionThree">
+              <div class="card-body">
                 <p>
                   Existe también la posibilidad de que instituciones o agrupaciones propongan la realización de simposios, mesas redondas de carácter temático, talleres artísticos o presentaciones de libros asociados a las áreas temáticas antes expuestas. En tales casos, las propuestas justificadas y los CV de los participantes deben enviarse a la misma dirección de correo electrónico y cumpliendo el mismo plazo de envío (4 de junio de 2022).
                 </p>
@@ -392,9 +378,6 @@
           </div>
         </div>
 
-        
-
-
 
 
 
@@ -407,9 +390,9 @@
 
     </section>
 
-    <!-- =========================================== NUESTRO EQUIPO ========================================= -->
+    <!-- =========================================== Ponentes ========================================= -->
 
-    <section
+    <!-- <section
       class="nuestro-equipo text-light scroll-cabecera"
       id="nuestro-equipo"
     >
@@ -471,7 +454,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <footer class="pie-pagina">
       <h6 class="text-center">Copyright © 2022, UTEC</h6>

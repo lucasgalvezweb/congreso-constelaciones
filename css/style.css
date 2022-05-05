@@ -14,6 +14,11 @@ h6 {
 }
 
 @font-face {
+  font-family: "museosans-normal";
+  src: url("../fonts/museosans/museosans_0-webfont.ttf") format("ttf");
+}
+
+@font-face {
   font-family: "stag-sans-light";
   src: url("../fonts/StagSans-Light.otf") format("woff");
 }
@@ -29,7 +34,7 @@ h6 {
 }
 
 body {
-  font-family: stag-sans-light, Arial, Helvetica, sans-serif !important;
+  font-family: museosans-normal, Arial, Helvetica, sans-serif !important;
 }
 
 html {
@@ -48,12 +53,19 @@ html {
   background-color: #00BFFF !important;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .fondo {
-  background-image: url("../img/fondo-papel.jpg");
-  background-attachment: fixed;
+  background-image: url("../img/fondo_prueba.jpg");
   width: 100%;
-  height: 660px;
-  background-size: cover;
+  height: 770px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .acomodar-texto {
@@ -71,7 +83,7 @@ html {
 }
 
 .servicios {
-  padding: 57px 0px 17px;
+  padding: 100px 0px 50px;
 }
 
 .servicios h2 {
@@ -123,9 +135,14 @@ html {
   font-weight: bold;
 }
 
-/* .card {
-  margin-top: 30px;
-} */
+.btn-link {
+  color: #00BFFF !important;
+  font-weight: bold !important;
+}
+
+.btn-link {
+  text-decoration: none !important;
+}
 
 .nuestro-equipo {
   padding: 100px 0px 50px;
