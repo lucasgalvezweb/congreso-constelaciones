@@ -59,7 +59,7 @@ img {
 }
 
 .fondo {
-  background-image: url("../img/fondo_prueba.jpg");
+  background-image: url("../img/fondo_v2.png");
   width: 100%;
   height: 770px;
   background-repeat: no-repeat;
@@ -220,6 +220,17 @@ img {
 }
 
 @media (max-width: 479px) {
+
+  .fondo {
+    background-image: url("../img/Responsive_view_v2.png");
+    width: 100%;
+    height: 770px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
   .acomodar-texto h2 {
     font-size: 22px;
   }
