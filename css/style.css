@@ -41,6 +41,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.card{
+  background-color: #232323 !important;
+}
+
+.banner-convocatoria {
+  content: url("../img/banner_convocatoria.png");
+}
+
+
 .navbar-collapse {
   text-align: center;
 }
@@ -53,19 +62,13 @@ html {
   background-color: #00BFFF !important;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .fondo {
   background-image: url("../img/fondo_v2.png");
   width: 100%;
-  height: 770px;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center center;
-  background-attachment: fixed;
+  margin-top: 80px;
 }
 
 .acomodar-texto {
@@ -82,11 +85,11 @@ img {
   font-weight: bold;
 }
 
-.servicios {
-  padding: 100px 0px 50px;
+.presentacion {
+  padding: 75px 0px 20px;
 }
 
-.servicios h2 {
+.presentacion h2 {
   font-size: 50px;
   font-weight: bold;
 }
@@ -109,7 +112,7 @@ img {
   font-weight: bold;
 }
 
-.servicios h2 {
+.presentacion h2 {
   margin-top: 15px;
 }
 
@@ -125,18 +128,24 @@ img {
   margin-top: 10px;
 }
 
-.portafolio {
+.convocatoria {
   width: 100%;
   padding: 100px 0px 50px;
+  background-color: #232323;
+  color: white;
 }
 
-.portafolio h2 {
+.convocatoria img {
+  border: 2px solid white;
+}
+
+.convocatoria h2 {
   font-size: 50px;
   font-weight: bold;
 }
 
 .btn-link {
-  color: #00BFFF !important;
+  color: #1bf1a1 !important;
   font-weight: bold !important;
 }
 
@@ -225,10 +234,14 @@ img {
     background-image: url("../img/Responsive_view_v2.png");
     width: 100%;
     height: 770px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    background-attachment: fixed;
+  }
+
+  .banner-convocatoria {
+    content: url("../img/responsive_view.png");
+  }
+
+  .presentacion h2 {
+    font-size: 40px;
   }
 
   .acomodar-texto h2 {
